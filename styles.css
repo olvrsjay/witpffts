@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0c0e2b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: #161b3d;
+    padding: 30px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.instruction {
+    text-align: center;
+    font-size: 12px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+.radio-group,
+.checkbox {
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.radio-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkbox a {
+    color: #7ca9ff;
+    text-decoration: underline;
+}
+
+.privacy-note {
+    font-size: 11px;
+    color: #aaa;
+    margin: 10px 0 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1f2756;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="registrationForm" class="registration-form">
+            <h2>Registration Form</h2>
+            <p class="instruction">Please fill out this form with the required information</p>
+
+            <input type="text" placeholder="First Name:" required>
+            <input type="text" placeholder="Last Name:" required>
+            <input type="email" placeholder="Email:" required>
+            <input type="password" placeholder="Create Password:" required>
+
+            <div class="radio-group">
+                <label><input type="radio" name="info" required> Program</label>
+                <label><input type="radio" name="info" required> Year Level</label>
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox" required> I accept the <a href="#">terms and conditions</a>
+            </label>
+
+            <p class="privacy-note">
+                The school ensures data protection by adhering to relevant privacy laws,
+                applying encryption, and requiring informed consent before any external sharing.
+            </p>
+
+            <label>Upload a profile picture:</label>
+            <input type="file" accept="image/*">
+
+            <input type="date" required>
+
+            <label for="specialization">Specialization?</label>
+            <select id="specialization" required>
+                <option value="" disabled selected>[select one]</option>
+                <option>Computer Science</option>
+                <option>Information Systems</option>
+                <option>Software Engineering</option>
+            </select>
+
+            <label for="bio">Bio:</label>
+            <textarea id="bio" placeholder="I like coding on the beach..." rows="2"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="successful.js"></script>
+</body>
+</html>
